@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>padding property</title>
+    <style>
+        *{
+            padding: 0;
+            margin: 0;
+        }
+        .padded{
+            background-color: aqua;
+            height: 100px;
+            width: 100px;
+            padding: 25px 5px 5px 5px;
+            margin: 10px;
+            border: 2px solid;
+        }
+        .second{
+            background-color: rgb(255, 0, 157);
+            height: 100px;
+            width: 100px;
+            padding: 25px 5px 5px 5px;
+            margin: 10px; 
+            border: 2px solid;
+            box-sizing: border-box;
+        }
+        .th{
+            background-color: rgb(33, 204, 204);
+            height: 100px;
+            width: 100px;
+            padding: 25px 5px 5px 5px;
+            margin: 10px; 
+            border: 2px solid;
+            box-sizing: content-box;
+        }
+    </style>
+</head>
+<body>
+    <div class="padded">padding check</div>
+    <div class="second">Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptate, dolorum recusandae beatae possimus rem aliquid quia temporibus illo consequuntur reprehenderit nobis, porro excepturi, velit vero in labore laborum fuga dolore.</div>
+    <div class="th">content box Lorem ipsum dolor sit amet consectetur adipisicing elit. Eum aliquam dolores cum repellendus. Iste, aperiam harum odio aliquid pariatur unde esse ab delectus vero explicabo, quaerat a molestiae, inventore non.</div>
+</body>
+</html>
